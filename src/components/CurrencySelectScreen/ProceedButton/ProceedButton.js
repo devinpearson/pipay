@@ -24,9 +24,10 @@ class ProceedButton extends React.Component {
   }
 }
 ProceedButton.propTypes = {
-  selectedName: PropTypes.string,
-  selectedId: PropTypes.string,
-  clickHandler: PropTypes.func,
+  loading: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  clickHandler: PropTypes.string.isRequired,
+  selectedId: PropTypes.string.isRequired,
 };
 
 export default withStyles(s)(ProceedButton);

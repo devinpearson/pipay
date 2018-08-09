@@ -14,9 +14,9 @@ function buildError(err) {
       message: HttpStatus.getStatusText(HttpStatus.BAD_REQUEST),
       details:
         err.details &&
-        err.details.map(err => ({
-          message: err.message,
-          param: err.path.join('.'),
+        err.details.map(error => ({
+          message: error.message,
+          param: error.path.join('.'),
         })),
     };
   }

@@ -38,8 +38,8 @@ class PaymentDetailsContainer extends React.Component {
   }
 }
 PaymentDetailsContainer.propTypes = {
-  paid: PropTypes.bool,
-  transactionDetails: PropTypes.object,
+  paid: PropTypes.bool.isRequired,
+  transactionDetails: PropTypes.object.isRequired, // eslint-disable-line
 };
 
 export default withStyles(s)(PaymentDetailsContainer);

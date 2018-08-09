@@ -10,10 +10,6 @@
   flex: 1 0 auto;
 }
 
-.component-button.wide {
-  width: 50%;
-}
-
 .component-button button {
   margin: 5px;
   flex: 1 0 auto;

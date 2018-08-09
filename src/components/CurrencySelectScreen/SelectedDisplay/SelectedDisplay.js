@@ -23,9 +23,8 @@ class SelectedDisplay extends React.Component {
   }
 }
 SelectedDisplay.propTypes = {
-  name: PropTypes.string,
-  selectedId: PropTypes.string,
-  amount: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
 };
 
 export default withStyles(s)(SelectedDisplay);

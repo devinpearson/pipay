@@ -44,7 +44,7 @@ export function methodNotAllowed(req, res) {
  * @param  {Object}   res
  * @param  {Function} next
  */
-export function bodyParser(err, req, res, next) {
+export function bodyParser(err, req, res) {
   logger.error(err);
 
   res.status(err.status).json({
@@ -63,7 +63,7 @@ export function bodyParser(err, req, res, next) {
  * @param  {Object}   res
  * @param  {Function} next
  */
-export function genericErrorHandler(err, req, res, next) {
+export function genericErrorHandler(err, req, res) {
   logger.error(err);
 
   const error = buildError(err);

@@ -1,6 +1,7 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import s from './Amount.css';
 import {
   updateTransactionId,
@@ -36,6 +37,12 @@ class Amount extends React.Component {
     );
   }
 }
+
+Amount.propTypes = {
+  updateTransactionId: PropTypes.func.isRequired,
+  updateTransactionCurrencies: PropTypes.func.isRequired,
+  updateTransactionAmount: PropTypes.func.isRequired,
+};
 
 const mapStateToProps = state => ({ state });
 

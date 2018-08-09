@@ -23,7 +23,7 @@ class QrCodeDisplay extends React.Component {
   }
 }
 QrCodeDisplay.propTypes = {
-  transactionDetails: PropTypes.object,
+  transactionDetails: PropTypes.object.isRequired, // eslint-disable-line
 };
 
 export default withStyles(s)(QrCodeDisplay);

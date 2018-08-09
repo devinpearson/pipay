@@ -91,9 +91,9 @@ class Keypad extends React.Component {
 }
 
 Keypad.propTypes = {
-  updateTransactionId: PropTypes.func,
-  updateTransactionCurrencies: PropTypes.func,
-  updateTransactionAmount: PropTypes.func,
+  updateTransactionId: PropTypes.func.isRequired,
+  updateTransactionCurrencies: PropTypes.func.isRequired,
+  updateTransactionAmount: PropTypes.func.isRequired,
 };
 
 export default withStyles(s)(Keypad);

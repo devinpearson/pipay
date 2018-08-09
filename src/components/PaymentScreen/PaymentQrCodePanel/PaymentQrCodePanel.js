@@ -20,7 +20,8 @@ class PaymentQrCodePanel extends React.Component {
   }
 }
 PaymentQrCodePanel.propTypes = {
-  transactionDetails: PropTypes.object,
+  transactionDetails: PropTypes.object.isRequired, //eslint-disable-line
+  intervalKey: PropTypes.number.isRequired,
 };
 
 export default withStyles(s)(PaymentQrCodePanel);

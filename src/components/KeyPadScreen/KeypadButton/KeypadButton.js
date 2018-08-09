@@ -28,11 +28,10 @@ class KeypadButton extends React.Component {
   }
 }
 KeypadButton.propTypes = {
-  name: PropTypes.string,
-  green: PropTypes.bool,
-  wide: PropTypes.bool,
-  clickHandler: PropTypes.func,
-  loading: PropTypes.bool,
+  name: PropTypes.string.isRequired,
+  green: PropTypes.bool.isRequired,
+  clickHandler: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 export default withStyles(s)(KeypadButton);

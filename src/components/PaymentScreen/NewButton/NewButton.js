@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './NewButton.css';
 import history from '../../../history';
@@ -17,5 +18,9 @@ class NewButton extends React.Component {
     );
   }
 }
+
+NewButton.propTypes = {
+  intervalKey: PropTypes.number.isRequired,
+};
 
 export default withStyles(s)(NewButton);

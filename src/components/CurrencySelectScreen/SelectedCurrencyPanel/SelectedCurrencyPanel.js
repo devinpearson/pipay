@@ -33,8 +33,13 @@ class SelectedCurrencyPanel extends React.Component {
     );
   }
 }
+
 SelectedCurrencyPanel.propTypes = {
-  clickHandler: PropTypes.func,
+  name: PropTypes.string.isRequired,
+  selectedId: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 export default withStyles(s)(SelectedCurrencyPanel);

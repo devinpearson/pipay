@@ -43,8 +43,8 @@ class KeypadButtonPanel extends React.Component {
   }
 }
 KeypadButtonPanel.propTypes = {
-  clickHandler: PropTypes.func,
-  loading: PropTypes.bool,
+  clickHandler: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 export default withStyles(s)(KeypadButtonPanel);
