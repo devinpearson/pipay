@@ -24,6 +24,12 @@ Before you start, take a moment to see how the project structure looks like:
 │   ├── /components/            # React components
 │   ├── /data/                  # GraphQL server schema and data models
 │   ├── /routes/                # Page/screen components along with the routing information
+│   ├── /redux/                 # Redux Store
+│   ├── /middleware/            # API middleware used by express
+│   ├── /actions/               # Actions used by redux
+│   ├── /utilities/             # App Specific Utilities
+│   ├── /constants/             # App Specific Constants. Used currently for redux actions
+│   ├── /services/              # App Specific functionailty. Used currently our core function
 │   ├── /client.js              # Client-side startup script
 │   ├── /config.js              # Global application settings
 │   ├── /server.js              # Server-side startup script
@@ -69,9 +75,7 @@ Node.js server (`node build/server.js`) and
 [HMR](https://webpack.github.io/docs/hot-module-replacement) on top of it.
 
 > [http://localhost:3000/](http://localhost:3000/) — Node.js server
-> (`build/server.js`) with Browsersync and HMR enabled\
-> [http://localhost:3000/graphql](http://localhost:3000/graphql) — GraphQL server
-> and IDE\
+> (`build/server.js`) with Browsersync and HMR enabled
 > [http://localhost:3001/](http://localhost:3001/) — Browsersync control panel
 > (UI)
 
