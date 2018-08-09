@@ -27,7 +27,7 @@
   box-shadow: inset rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -2px 2px;
   background-image: -moz-linear-gradient(top, #363636 0%, #313234 40%, #2f2f2f 100%);
   background-image: -webkit-linear-gradient(top, #363636 0%, #313234 40%, #2f2f2f 100%);
-  background-image: linear-gradient(to top, #363636 0%, #313234 40%, #2f2f2f 100%);
+  background-image: linear-gradient(to bottom, #363636 0%, #313234 40%, #2f2f2f 100%);
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
