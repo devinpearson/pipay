@@ -5,6 +5,7 @@ import s from './PaymentDetailsContainer.css';
 
 class PaymentDetailsContainer extends React.Component {
   render() {
+    const { address } = this.props.transactionDetails.extra;
     return (
       <div className={s['selected-component-button']}>
         <div>
@@ -15,7 +16,12 @@ class PaymentDetailsContainer extends React.Component {
               Payment Address
               <div>
                 <div className={s['payment-address']}>
-                  {this.props.transactionDetails.extra.address}
+                  {address.length <= 35
+                    ? address
+                    : `${address.substring(0, 30)}...   ...${address.substring(
+                        address.length - 4,
+                        address.length - 1,
+                      )}`}
                 </div>
               </div>
             </div>
