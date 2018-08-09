@@ -1,0 +1,11 @@
+@import '../../components/variables.css';
+
+.root {
+  margin: 0;
+  height: 90%;
+}
+
+.container {
+  height: 100%;
+  background-color: #232323;
+}
