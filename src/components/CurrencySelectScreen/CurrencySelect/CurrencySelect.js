@@ -72,15 +72,13 @@ class CurrencySelect extends React.Component {
 
 CurrencySelect.propTypes = {
   currentTransactionAmount: PropTypes.string.isRequired,
-  currentTransactionCurrencies: PropTypes.object.isRequired, // eslint-disable-line
-  currentTransactionId: PropTypes.string.isRequired,
+  currentTransactionCurrencies: PropTypes.array.isRequired, // eslint-disable-line
+  currentTransactionId: PropTypes.object.isRequired, // eslint-disable-line
   updateTransactionDetails: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = state => ({
-  currentTransactionId: {
-    id: PropTypes.string.isRequired,
-  }.isRequired,
+  currentTransactionId: state.currentTransactionId,
   currentTransactionCurrencies: state.currentTransactionCurrencies,
   currentTransactionAmount: state.currentTransactionAmount,
 });

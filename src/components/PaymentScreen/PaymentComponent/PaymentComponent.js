@@ -67,9 +67,7 @@ class PaymentComponent extends React.Component {
 PaymentComponent.propTypes = {
   currentTransactionAmount: PropTypes.string.isRequired,
   currentTransactionDetails: PropTypes.object.isRequired, // eslint-disable-line
-  currentTransactionId: {
-    id: PropTypes.string.isRequired,
-  }.isRequired,
+  currentTransactionId: PropTypes.object.isRequired, // eslint-disable-line
 };
 
 const mapStateToProps = state => ({

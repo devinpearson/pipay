@@ -20,7 +20,11 @@ class NewButton extends React.Component {
 }
 
 NewButton.propTypes = {
-  intervalKey: PropTypes.number.isRequired,
+  intervalKey: PropTypes.number,
+};
+
+NewButton.defaultProps = {
+  intervalKey: 0,
 };
 
 export default withStyles(s)(NewButton);

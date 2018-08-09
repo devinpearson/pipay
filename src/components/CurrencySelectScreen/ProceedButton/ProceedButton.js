@@ -24,9 +24,9 @@ class ProceedButton extends React.Component {
   }
 }
 ProceedButton.propTypes = {
-  loading: PropTypes.string.isRequired,
+  loading: PropTypes.bool.isRequired,
   name: PropTypes.string.isRequired,
-  clickHandler: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
   selectedId: PropTypes.string.isRequired,
 };
 
