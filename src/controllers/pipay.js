@@ -4,9 +4,8 @@ import PipayService from '../services/pipay';
 
 const router = Router();
 const pipay = new PipayService(
-  'https://test.globee.com/payment-api/v1',
-  // 'h6ao6fWJJdLINS6puNfBjUpRpZtaUsSE',
-  'NO7EDXWBFHO81a65JnvInMqjimN12cDW',
+  process.env.GLOBEE_API_URL,
+  process.env.GLOBEE_API_KEY,
 );
 
 /**

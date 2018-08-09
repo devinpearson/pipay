@@ -8,7 +8,6 @@ import nodeFetch from 'node-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import PrettyError from 'pretty-error';
-import './env';
 import App from './components/App';
 import Html from './components/Html';
 import apiRouter from './apiRouter';
@@ -22,6 +21,8 @@ import config from './config';
 import json from './middleware/json';
 import * as errorHandler from './middleware/errorHandler';
 import logger from './utils/logger';
+
+require('dotenv').config()
 
 process.on('unhandledRejection', (reason, p) => {
   console.error('Unhandled Rejection at:', p, 'reason:', reason);
