@@ -1,14 +1,15 @@
 import Boom from 'boom';
 import axios from 'axios';
+import config from '../../config';
 
 class Pipay {
-  constructor(baseUrl, apiKey) {
-    this.baseUrl = baseUrl;
-    this.apiKey = apiKey;
+  constructor() {
+    this.baseUrl = config.globee.clientUrl;
+    this.apiKey = config.globee.clientKey;
     this.axios = axios.create({
-      baseURL: baseUrl,
+      baseURL: config.globee.clientUrl,
       timeout: 2000,
-      headers: { 'X-AUTH-KEY': apiKey },
+      headers: { 'X-AUTH-KEY': config.globee.clientKey },
     });
   }
 

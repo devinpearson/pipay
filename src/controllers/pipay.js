@@ -3,10 +3,7 @@ import HttpStatus from 'http-status-codes';
 import PipayService from '../services/pipay';
 
 const router = Router();
-const pipay = new PipayService(
-  process.env.GLOBEE_API_URL,
-  process.env.GLOBEE_API_KEY,
-);
+const pipay = new PipayService();
 
 /**
  * GET /api/pipay/payment-currencies/:id
