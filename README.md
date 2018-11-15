@@ -1,149 +1,44 @@
-# Pipay System
+# Pipay
 
-## Getting Started
+## Available Scripts
 
-### Requirements
+In the project directory, you can run:
 
-- Mac OS X, Windows, or Linux
-- [Yarn](https://yarnpkg.com/) package + [Node.js](https://nodejs.org/) v6.5 or
-  newer
-- Text editor or IDE pre-configured with React/JSX/Flow/ESlint
-  ([learn more](./how-to-configure-text-editors.md))
+### `npm start`
 
-### Directory Layout
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Before you start, take a moment to see how the project structure looks like:
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-```
-.
-├── /build/                     # The folder for compiled output
-├── /docs/                      # Documentation files for the project
-├── /node_modules/              # 3rd-party libraries and utilities
-├── /public/                    # Static files which are copied into the /build/public folder
-├── /src/                       # The source code of the application
-│   ├── /components/            # React components
-│   ├── /data/                  # GraphQL server schema and data models
-│   ├── /routes/                # Page/screen components along with the routing information
-│   ├── /redux/                 # Redux Store
-│   ├── /middleware/            # API middleware used by express
-│   ├── /actions/               # Actions used by redux
-│   ├── /utilities/             # App Specific Utilities
-│   ├── /constants/             # App Specific Constants. Used currently for redux actions
-│   ├── /services/              # App Specific functionailty. Used currently our core function
-│   ├── /client.js              # Client-side startup script
-│   ├── /config.js              # Global application settings
-│   ├── /server.js              # Server-side startup script
-│   └── ...                     # Other core framework modules
-├── /test/                      # Unit and end-to-end tests
-├── /tools/                     # Build automation scripts and utilities
-│   ├── /lib/                   # Library for utility snippets
-│   ├── /build.js               # Builds the project from source to output (build) folder
-│   ├── /bundle.js              # Bundles the web resources into package(s) through Webpack
-│   ├── /clean.js               # Cleans up the output (build) folder
-│   ├── /copy.js                # Copies static files to output (build) folder
-│   ├── /deploy.js              # Deploys your web application
-│   ├── /postcss.config.js      # Configuration for transforming styles with PostCSS plugins
-│   ├── /run.js                 # Helper function for running build automation tasks
-│   ├── /runServer.js           # Launches (or restarts) Node.js server
-│   ├── /start.js               # Launches the development web server with "live reload"
-│   └── /webpack.config.js      # Configurations for client-side and server-side bundles
-├── Dockerfile                  # Commands for building a Docker image for production
-├── package.json                # The list of 3rd party libraries and utilities
-└── yarn.lock                   # Fixed versions of all the dependencies
-```
+### `npm test`
 
-### Quick Start
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### 1. Get the latest version
+### `npm run build`
 
-```shell
-$ git clone https://github.com/devinpearson/pipay.git pipay
-$ cd pipay
-```
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### 2. Run `yarn install`
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-This will install both run-time project dependencies and developer tools listed
-in [package.json](../package.json) file.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### 3. Run `yarn start`
+### `npm run eject`
 
-This command will build the app from the source files (`/src`) into the output
-`/build` folder. As soon as the initial build completes, it will start the
-Node.js server (`node build/server.js`) and
-[Browsersync](https://browsersync.io/) with
-[HMR](https://webpack.github.io/docs/hot-module-replacement) on top of it.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-> [http://localhost:3000/](http://localhost:3000/) — Node.js server
-> (`build/server.js`) with Browsersync and HMR enabled
-> [http://localhost:3001/](http://localhost:3001/) — Browsersync control panel
-> (UI)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Now you can open your web app in a browser.
-Whenever you modify any of the source files inside the `/src` folder, the module
-bundler ([Webpack](http://webpack.github.io/)) will recompile the app on the fly
-and refresh all the connected browsers.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Note that the `yarn start` command launches the app in `development` mode, the
-compiled output files are not optimized and minimized in this case. You can use
-`--release` command line argument to build and run in release
-(production) mode:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```shell
-$ yarn start -- --release
-```
+## Learn More
 
-_NOTE: double dashes are required_
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### How to Build, Test, Deploy
-
-If you need just to build the app (without running a dev server), simply run:
-
-```shell
-$ yarn run build
-```
-
-or, for a production build:
-
-```shell
-$ yarn run build -- --release
-```
-
-or, for a production docker build:
-
-```shell
-$ yarn run build -- --release --docker
-```
-
-_NOTE: double dashes are required_
-
-After running this command, the `/build` folder will contain the compiled
-version of the app. For example, you can launch Node.js server normally by
-running `node build/server.js`.
-
-To check the source code for syntax errors and potential issues run:
-
-```shell
-$ yarn run lint
-```
-
-To launch unit tests:
-
-```shell
-$ yarn run test          # Run unit tests with Mocha
-$ yarn run test:watch    # Launch unit test runner and start watching for changes
-```
-
-By default, [Mocha](https://mochajs.org/) test runner is looking for test files
-matching the `src/**/*.test.js` pattern. Take a look at
-`src/components/Layout/Layout.test.js` as an example.
-
-To deploy the app, run:
-
-```shell
-$ yarn run deploy
-```
-
-The deployment script `tools/deploy.js` is configured to push the contents of
-the `/build` folder to a remote server via Git. It will will execute `yarn install --production` upon receiving new files from you. Note, you should only deploy
-the contents of the `/build` folder to a remote server.
+To learn React, check out the [React documentation](https://reactjs.org/).

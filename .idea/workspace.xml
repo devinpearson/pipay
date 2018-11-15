@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97c7ad6a-c57a-4f9e-bfca-4374005cc3ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/.audit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2018-08-10-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/crossdomain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/globee-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfont/cryptocoins-colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfont/cryptocoins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfont/cryptocoins.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfont/cryptocoins.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfont/cryptocoins.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DOMUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/CurrencyButton/CurrencyButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/CurrencyButton/CurrencyButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/CurrencyButtonPanel/CurrencyButtonPanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/CurrencyButtonPanel/CurrencyButtonPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/CurrencySelect/CurrencySelect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/CurrencySelect/CurrencySelect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/ProceedButton/ProceedButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/ProceedButton/ProceedButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/SelectedCurrencyPanel/SelectedCurrencyPanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/SelectedCurrencyPanel/SelectedCurrencyPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/SelectedDisplay/SelectedDisplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurrencySelectScreen/SelectedDisplay/SelectedDisplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feedback/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/Keypad/Keypad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/Keypad/Keypad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/Keypad/calculate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/Keypad/isNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/KeypadButton/KeypadButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/KeypadButton/KeypadButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/KeypadButtonPanel/KeypadButtonPanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/KeypadButtonPanel/KeypadButtonPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/KeypadDisplay/KeypadDisplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeyPadScreen/KeypadDisplay/KeypadDisplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/__snapshots__/Layout.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Link/Link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Link/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/NewButton/NewButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/NewButton/NewButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentComponent/PaymentComponent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentComponent/PaymentComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentDetailsContainer/PaymentDetailsContainer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentDetailsContainer/PaymentDetailsContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentDetailsPanel/PaymentDetailsPanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentDetailsPanel/PaymentDetailsPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentQrCodePanel/PaymentQrCodePanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/PaymentQrCodePanel/PaymentQrCodePanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/QrCodeDisplay/QrCodeDisplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaymentScreen/QrCodeDisplay/QrCodeDisplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/action-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/pipay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/createFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/UserClaim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/UserLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/UserProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/queries/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/queries/news.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/sequelize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/NewsItemType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/UserType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/errorHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/amount/Amount.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/amount/Amount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/amount/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/currencies/Currencies.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/currencies/Currencies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/currencies/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/error/ErrorPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/error/ErrorPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/error/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/not-found/NotFound.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/not-found/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/not-found/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/payment/Payment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/payment/Payment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/payment/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/pipay/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/buildError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/swagger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/copy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/deploy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lib/cp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lib/fileTransformer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lib/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lib/markdown-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lib/overrideRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lib/webpackHotDevClient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/runServer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Stepper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Stepper/Stepper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="317" column="36" selection-start-line="317" selection-start-column="36" selection-end-line="317" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Stepper/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoScalingText.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/common/AutoScalingText.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="Gfm" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="37">
+                <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/main.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-helper.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test-helper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Keypad/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="247" selection-start-line="247" selection-end-line="247" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeypadButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Keypad/KeypadButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeypadDisplay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Keypad/KeypadDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loaders</find>
+      <find>step</find>
+      <find>transform</find>
+      <find>../img</find>
+      <find>class=</find>
+      <find>displayValue</find>
+      <find>CalculatorKey</find>
+      <find>show</find>
+      <find>(.*)(\/([a-z-_0-9]+\w(.php|.png)))(?!$2)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Stepper</replace>
+      <replace>../images</replace>
+      <replace>KeypadKey</replace>
+      <replace>className=</replace>
+      <replace>KeypadButton</replace>
+      <replace>$1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ReactWizard.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Pages/Amount.js" />
+        <option value="$PROJECT_DIR$/src/Pages/2-Currency-Select.js" />
+        <option value="$PROJECT_DIR$/src/Pages/3-Payment-Detials.js" />
+        <option value="$PROJECT_DIR$/src/Pages/4-Payment-Summary.js" />
+        <option value="$PROJECT_DIR$/src/styles/flex-layout.css" />
+        <option value="$PROJECT_DIR$/src/Pages/index.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html" />
+        <option value="$PROJECT_DIR$/src/scss/steps.sass" />
+        <option value="$PROJECT_DIR$/src/scss/app.sass" />
+        <option value="$PROJECT_DIR$/src/scss/stepper.scss" />
+        <option value="$PROJECT_DIR$/src/scss/layout.scss" />
+        <option value="$PROJECT_DIR$/src/components/stepper/react-stepzilla/src/main.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-stepzilla/src/main.js" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.html" />
+        <option value="$PROJECT_DIR$/src/scss/navigation.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/css/navigation.css" />
+        <option value="$PROJECT_DIR$/src/scss/_navigation.scss" />
+        <option value="$PROJECT_DIR$/src/scss/navigation/_mixin_main.scss" />
+        <option value="$PROJECT_DIR$/src/scss/navigation/navigation.scss" />
+        <option value="$PROJECT_DIR$/src/scss/_layout.scss" />
+        <option value="$PROJECT_DIR$/src/components/KeyPadScreen/Keypad/Keypad.js" />
+        <option value="$PROJECT_DIR$/src/scss/app.scss" />
+        <option value="$PROJECT_DIR$/src/components/stepper/Stepper.js" />
+        <option value="$PROJECT_DIR$/src/components/keypad/KeyPadKey.js" />
+        <option value="$PROJECT_DIR$/src/components/keypad/Display.js" />
+        <option value="$PROJECT_DIR$/src/components/keypad/Keypad.js" />
+        <option value="$PROJECT_DIR$/src/components/keypad/index.js" />
+        <option value="$PROJECT_DIR$/src/components/keypad/KeypadPad.js" />
+        <option value="$PROJECT_DIR$/src/components/stepper/index.js" />
+        <option value="$PROJECT_DIR$/src/components/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Stepper/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Keypad/KeypadPad.js" />
+        <option value="$PROJECT_DIR$/src/components/common/AutoScalingText.js" />
+        <option value="$PROJECT_DIR$/src/components/Keypad/KeypadButton.js" />
+        <option value="$PROJECT_DIR$/src/components/Keypad/KeypadDisplay.js" />
+        <option value="$PROJECT_DIR$/src/scss/keypad.scss" />
+        <option value="$PROJECT_DIR$/src/components/Keypad/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Pages/1-Amount.js" />
+        <option value="$PROJECT_DIR$/src/components/Stepper/Stepper.js" />
+        <option value="$USER_HOME$/files.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tests/test-helper.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1113" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pi-pay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pi-pay" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pi-pay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pi-pay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pi-pay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pi-pay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pi-pay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pi-pay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML&#10;Angular2HTML" />
+    <property name="editorconfig.notification" value="null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="standardjs.codestyle.accepted" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/scss/navigation" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/scss" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src/scss/navigation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97c7ad6a-c57a-4f9e-bfca-4374005cc3ea" name="Default" comment="" />
+      <created>1542169355537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542169355537</updated>
+      <workItem from="1542169358351" duration="45420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45420000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="GfmBrowser" />
+      <window_info anchor="bottom" id="Tool Output" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="JSON Utils" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="bottom" id="Dilbert" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1682641" />
+      <window_info anchor="bottom" id="ANTLR Preview" />
+      <window_info anchor="bottom" id="CodeSearch" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.24468865" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="SvgViewer" />
+      <window_info anchor="bottom" id="Regex Tester" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.33007118" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Quokka" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.29866666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
+      <window_info anchor="right" id="lottie-idea" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32977778" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="RIPS" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32977778" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="0" />
+      <window_info anchor="bottom" id="Message" order="2" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Pages/2-Currency-Select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/4-Payment-Summary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/flex-layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="196" column="54" selection-start-line="196" selection-start-column="47" selection-end-line="196" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="43" column="10" selection-start-line="1" selection-start-column="4" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/steps.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-stepzilla/dist/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-stepzilla/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="21" lean-forward="true" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stepper/react-stepzilla/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stepper/react-stepzilla/src/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stepper/react-stepzilla/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stepper/react-stepzilla/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/cd-custom-icons-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stepper/Step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2316">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/navigation/_mixin_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/navigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/gsi-step-indicator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/3-Payment-Detials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/umd/react.development.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-stepzilla/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="278" column="55" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/KeyPadScreen/Keypad/Keypad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Keypad/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Keypad/KeypadKey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/navigation/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/keypad.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/1-Amount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stepper/Stepper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="317" column="36" selection-start-line="317" selection-start-column="36" selection-end-line="317" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Keypad/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Keypad/KeypadButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Keypad/KeypadDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stepper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/AutoScalingText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="37">
+            <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/main.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test-helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

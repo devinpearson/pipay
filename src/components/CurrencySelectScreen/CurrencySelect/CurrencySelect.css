@@ -1,7 +1,0 @@
-.componentApp {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex: 1 0 auto;
-  height: 100%;
-}
