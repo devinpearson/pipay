@@ -162,89 +162,58 @@ export default class Calculator extends React.Component {
     const clearText = clearDisplay ? 'C' : 'AC'
 
     return (
-      <div className="tile is-ancestor">
-        <div className="tile is-vertical is-8">
-          <div className="tile">
-            <div className="tile is-parent is-vertical">
-              <article className="tile is-child notification is-primary">
-                <p className="title">Vertical...</p>
-                <p className="subtitle">Top tile</p>
-              </article>
-              <article className="tile is-child notification is-warning">
-                <p className="title">...tiles</p>
-                <p className="subtitle">Bottom tile</p>
-              </article>
-            </div>
-            <div className="tile is-parent">
-              <article className="tile is-child notification is-info">
-                <p className="title">Middle tile</p>
-                <p className="subtitle">With an image</p>
-                <figure className="image is-4by3">
-                  <img src="https://bulma.io/images/placeholders/640x480.png"></img>
-                </figure>
-              </article>
-            </div>
-          </div>
-          <div className="tile is-parent">
-            <article className="tile is-child notification is-danger">
-              <p className="title">Wide tile</p>
-              <p className="subtitle">Aligned with the right tile</p>
-              <div className="content">
-              </div>
-            </article>
-          </div>
+
+      <div className="tile is-parent is-vertical">
+        <div className="tile is-vertical">
+          < KeypadDisplay value={displayValue}/>
         </div>
-        <div className="tile is-parent">
-          <article className="tile is-child notification is-success">
-            <div className="content">
-              <p className="title">Tall tile</p>
-              <p className="subtitle">With even more content</p>
-              <div className="content">
-              </div>
+        <div className="tile is-vertical" style={{padding: 10}}>
+          <div className="columns is-mobile is-marginless">
+            <div className="column is-4" style={{padding: 5}}>
+                <KeypadButton className="key-1" onPress={() => this.inputDigit(1)}>1</KeypadButton>
             </div>
-          </article>
+            <div className="column is-4" style={{padding: 5}}>
+                <KeypadButton className="key-2" onPress={() => this.inputDigit(2)}>2</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+                <KeypadButton className="key-3" onPress={() => this.inputDigit(3)}>3</KeypadButton>
+            </div>
+          </div>
+          <div className="columns is-mobile is-marginless">
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-4" onPress={() => this.inputDigit(4)}>4</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-5" onPress={() => this.inputDigit(5)}>5</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-6" onPress={() => this.inputDigit(6)}>6</KeypadButton>
+            </div>
+          </div>
+          <div className="columns is-mobile is-marginless">
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-7" onPress={() => this.inputDigit(7)}>7</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-8" onPress={() => this.inputDigit(8)}>8</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-9" onPress={() => this.inputDigit(9)}>9</KeypadButton>
+            </div>
+          </div>
+          <div className="columns is-mobile is-marginless">
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-0" onPress={() => this.inputDigit(0)}>0</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-dot" onPress={() => this.inputDot()}>●</KeypadButton>
+            </div>
+            <div className="column is-4" style={{padding: 5}}>
+              <KeypadButton className="key-clear" onPress={() => clearDisplay ? this.clearDisplay() : this.clearAll()}>{clearText}</KeypadButton>
+            </div>
+          </div>
         </div>
       </div>
     )
-      {/*<div className="tile is-ancestor">*/}
-        {/*<div className="calculator tile is-vertical is-12">*/}
-          {/*<div className="tile">*/}
-          {/*< KeypadDisplay value={displayValue}/>*/}
-          {/*</div>*/}
-          {/*<div className="tile">*/}
-            {/*<div className="calculator-keypad">*/}
-              {/*<div className="input-keys">*/}
-                {/*<div className="function-keys">*/}
-                  {/*<KeypadButton className="key-clear"*/}
-                                {/*onPress={() => clearDisplay ? this.clearDisplay() : this.clearAll()}>{clearText}</KeypadButton>*/}
-                  {/*<KeypadButton className="key-sign" onPress={() => this.toggleSign()}>±</KeypadButton>*/}
-                  {/*<KeypadButton className="key-percent" onPress={() => this.inputPercent()}>%</KeypadButton>*/}
-                {/*</div>*/}
-                {/*<div className="digit-keys">*/}
-                  {/*<KeypadButton className="key-0" onPress={() => this.inputDigit(0)}>0</KeypadButton>*/}
-                  {/*<KeypadButton className="key-dot" onPress={() => this.inputDot()}>●</KeypadButton>*/}
-                  {/*<KeypadButton className="key-1" onPress={() => this.inputDigit(1)}>1</KeypadButton>*/}
-                  {/*<KeypadButton className="key-2" onPress={() => this.inputDigit(2)}>2</KeypadButton>*/}
-                  {/*<KeypadButton className="key-3" onPress={() => this.inputDigit(3)}>3</KeypadButton>*/}
-                  {/*<KeypadButton className="key-4" onPress={() => this.inputDigit(4)}>4</KeypadButton>*/}
-                  {/*<KeypadButton className="key-5" onPress={() => this.inputDigit(5)}>5</KeypadButton>*/}
-                  {/*<KeypadButton className="key-6" onPress={() => this.inputDigit(6)}>6</KeypadButton>*/}
-                  {/*<KeypadButton className="key-7" onPress={() => this.inputDigit(7)}>7</KeypadButton>*/}
-                  {/*<KeypadButton className="key-8" onPress={() => this.inputDigit(8)}>8</KeypadButton>*/}
-                  {/*<KeypadButton className="key-9" onPress={() => this.inputDigit(9)}>9</KeypadButton>*/}
-                {/*</div>*/}
-              {/*</div>*/}
-              {/*<div className="operator-keys">*/}
-                {/*<KeypadButton className="key-divide" onPress={() => this.performOperation('/')}>÷</KeypadButton>*/}
-                {/*<KeypadButton className="key-multiply" onPress={() => this.performOperation('*')}>×</KeypadButton>*/}
-                {/*<KeypadButton className="key-subtract" onPress={() => this.performOperation('-')}>−</KeypadButton>*/}
-                {/*<KeypadButton className="key-add" onPress={() => this.performOperation('+')}>+</KeypadButton>*/}
-                {/*<KeypadButton className="key-equals" onPress={() => this.performOperation('=')}>=</KeypadButton>*/}
-              {/*</div>*/}
-            {/*</div>*/}
-          {/*</div>*/}
-        {/*</div>*/}
-      {/*</div>*/}
-
   }
 }

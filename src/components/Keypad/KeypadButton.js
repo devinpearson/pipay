@@ -7,7 +7,7 @@ export default class KeypadButton extends React.Component {
 
     return (
       <PointTarget onPoint={onPress}>
-        <button className={`calculator-key ${className}`} {...props}/>
+        <button className={`button is-large has-background-grey has-text-light is-fullwidth keypad-key ${className}`} {...props}/>
       </PointTarget>
     )
   }

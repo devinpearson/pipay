@@ -277,7 +277,7 @@ export default class Stepper extends Component {
   // render the steps as stepsNavigation
   renderSteps () {
     return this.props.steps.map((s, i) => (
-      <li className={'steps-segment ' + this.getClassName('class', i)} onClick={(evt) => { this.jumpToStep(evt) }}
+      <li className={`steps-segment ${this.getClassName('class', i)}`} onClick={(evt) => { this.jumpToStep(evt) }}
           key={i} value={i}>
         <span className="steps-marker"><FontAwesomeIcon icon={this.props.steps[i].icon}/></span>
         <div className="steps-content">
@@ -310,7 +310,7 @@ export default class Stepper extends Component {
     const compToRender = React.cloneElement(componentPointer, cloneExtensions)
 
     return (
-      <section className="hero is-fullheight has-background-grey-lighter">
+      <section className="hero is-fullheight has-background-grey-lighter is-overlay" style={{overflow: 'hidden'}}>
         <div className="hero-head" onKeyDown={(evt) => { this.handleKeyDown(evt) }}>
           <div className="columns has-background-grey-dark has-text-light" style={{paddingTop: 30}}>
             <div className="column">
@@ -325,15 +325,14 @@ export default class Stepper extends Component {
           </div>
         </div>
         {compToRender}
-        <div className="hero-footer">
-          <div className="columns has-background-grey-dark has-text-light">
+        <div className="columns hero-footer has-background-grey-dark has-text-light">
             <div className="column is-6">
-              <img src="/images/globee.png" alt="Globee: A new generation of online payments" width="112" height="28" style={{marginLeft: 20}}></img>
+              <img src="/images/globee.png" className="has-content-centered" alt="Globee: A new generation of online payments" style={{marginLeft: 20, paddingTop: '2vh', height: '8vh'}}></img>
             </div>
             <div className="column is-6">
               <button
                 style={showPreviousBtn ? {marginLeft: 20} : this.hidden}
-                className="button is-primary fa-pull-left"
+                className="button is-large is-primary fa-pull-left"
                 onClick={() => { this.previous() }}
                 id="prev-button"
               >
@@ -342,14 +341,13 @@ export default class Stepper extends Component {
 
               <button
                 style={showNextBtn ? {marginRight: 20} : this.hidden}
-                className="button is-primary fa-pull-right"
+                className="button is-large is-primary fa-pull-right"
                 onClick={() => { this.next() }}
                 id="next-button"
               >
                 Continue
               </button>
             </div>
-          </div>
         </div>
 
       </section>

@@ -19,9 +19,10 @@ export default class KeypadDisplay extends React.Component {
       formattedValue += (/[1-9]/).test(match[0]) ? match[1] : match[0]
 
     return (
-      <div {...props} className="calculator-display">
+      <div {...props} className="column has-background-black keypad-display is-rounded is-fullwidth">
         <AutoScalingText>{formattedValue}</AutoScalingText>
       </div>
+
     )
   }
 }
